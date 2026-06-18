@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Machanor — From Vision to Production</title>
+<meta name="description" content="Machanor is an AI-native digital transformation consultancy helping organizations move from vision to production through Salesforce, Agentforce, AI, automation, and modern cloud technologies." />
+<meta property="og:title" content="Machanor — From Vision to Production" />
+<meta property="og:description" content="AI-Native. Business-Focused. Outcome-Driven." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Machanor","description":"AI-native digital transformation consultancy","url":"https://machanor.com","serviceType":["AI Consulting","Salesforce Implementation","Digital Transformation"]}
+</script>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<!-- ─── NAV ─── -->
+<nav id="main-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo" aria-label="Machanor home">
+      <span class="logo-mark" aria-hidden="true"></span>
+      MACHANOR
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#services"><span>Services</span></a></li>
+      <li><a href="#ai-core"><span>AI &amp; Agentforce</span></a></li>
+      <li><a href="#industries"><span>Industries</span></a></li>
+      <li><a href="#insights"><span>Insights</span></a></li>
+      <li><a href="#about"><span>About</span></a></li>
+    </ul>
+    <a href="#contact" class="nav-cta magnetic">Start a Conversation</a>
+    <button class="nav-mobile-toggle" aria-label="Toggle menu" id="mobileToggle">
+      <span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section class="hero" aria-label="Hero">
+  <canvas id="aiCanvas" aria-hidden="true"></canvas>
+  <div class="hero-vignette" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge reveal-mask">
+      <span class="hero-badge-dot" aria-hidden="true"></span>
+      <span>AI-Native Digital Transformation</span>
+    </div>
+
+    <h1 class="hero-headline display">
+      <span class="reveal-line"><span class="reveal-inner">From Vision</span></span>
+      <span class="reveal-line"><span class="reveal-inner accent-text">to Production</span></span>
+    </h1>
+
+    <p class="hero-sub reveal-mask" style="--d:0.5s">
+      Machanor helps organizations transform ideas into intelligent, scalable business systems through AI, Salesforce, Agentforce, automation, and modern digital engineering.
+    </p>
+
+    <div class="hero-actions reveal-mask" style="--d:0.65s">
+      <a href="#contact" class="btn-primary magnetic">
+        <span>Schedule a Strategy Session</span>
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#services" class="btn-secondary magnetic"><span>Explore Capabilities</span></a>
+    </div>
+  </div>
+
+  <div class="hero-meta reveal-mask" style="--d:0.85s">
+    <div class="meta-item">
+      <span class="meta-label">Platform</span>
+      <span class="meta-value">Salesforce · Agentforce</span>
+    </div>
+    <div class="meta-divider" aria-hidden="true"></div>
+    <div class="meta-item">
+      <span class="meta-label">Approach</span>
+      <span class="meta-value">AI-Native Delivery</span>
+    </div>
+    <div class="meta-divider" aria-hidden="true"></div>
+    <div class="meta-item">
+      <span class="meta-label">Outcome</span>
+      <span class="meta-value">Production-Grade Systems</span>
+    </div>
+  </div>
+
+  <div class="scroll-hint" aria-hidden="true">
+    <div class="scroll-track"><div class="scroll-thumb"></div></div>
+  </div>
+</section>
+
+<!-- ─── MARQUEE STRIP ─── -->
+<div class="marquee-strip" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Sales Cloud</span><span class="dot">·</span>
+    <span>Service Cloud</span><span class="dot">·</span>
+    <span>Agentforce</span><span class="dot">·</span>
+    <span>Data Cloud</span><span class="dot">·</span>
+    <span>Revenue Cloud</span><span class="dot">·</span>
+    <span>Experience Cloud</span><span class="dot">·</span>
+    <span>Industry Clouds</span><span class="dot">·</span>
+    <span>MuleSoft</span><span class="dot">·</span>
+    <span>Sales Cloud</span><span class="dot">·</span>
+    <span>Service Cloud</span><span class="dot">·</span>
+    <span>Agentforce</span><span class="dot">·</span>
+    <span>Data Cloud</span><span class="dot">·</span>
+    <span>Revenue Cloud</span><span class="dot">·</span>
+    <span>Experience Cloud</span><span class="dot">·</span>
+    <span>Industry Clouds</span><span class="dot">·</span>
+    <span>MuleSoft</span><span class="dot">·</span>
+  </div>
+</div>
+
+<!-- ─── TRUST SECTION ─── -->
+<section class="trust-section" aria-labelledby="trust-heading">
+  <div class="container">
+    <div class="trust-grid" role="list">
+      <div class="trust-card reveal-up" role="listitem">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="3" stroke="currentColor" stroke-width="1.4"/><circle cx="6" cy="9" r="2" stroke="currentColor" stroke-width="1.4"/><circle cx="26" cy="9" r="2" stroke="currentColor" stroke-width="1.4"/><circle cx="6" cy="23" r="2" stroke="currentColor" stroke-width="1.4"/><circle cx="26" cy="23" r="2" stroke="currentColor" stroke-width="1.4"/><path d="M13.5 14.5L8 10.5M18.5 14.5L24 10.5M13.5 17.5L8 21.5M18.5 17.5L24 21.5" stroke="currentColor" stroke-width="1.2"/></svg>
+        </div>
+        <div class="trust-title">AI-Native Delivery</div>
+        <div class="trust-desc">Intelligence embedded at every layer, not bolted on after the fact.</div>
+      </div>
+      <div class="trust-card reveal-up" role="listitem">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M9 21a5 5 0 01-1-9.9A6.5 6.5 0 0121 9.5a4.5 4.5 0 014 4.4 4.5 4.5 0 01-1 8.9H9z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="trust-title">Salesforce &amp; Agentforce Expertise</div>
+        <div class="trust-desc">Deep platform mastery across the entire Salesforce ecosystem.</div>
+      </div>
+      <div class="trust-card reveal-up" role="listitem">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M16 4l11 5v7c0 7-4.7 10.5-11 12-6.3-1.5-11-5-11-12V9l11-5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="trust-title">Enterprise Architecture Excellence</div>
+        <div class="trust-desc">Scalable, production-grade systems built to grow with your business.</div>
+      </div>
+      <div class="trust-card reveal-up" role="listitem">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M17 3L7 18h7l-1 11 11-15h-7l0-11z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="trust-title">Automation-First Approach</div>
+        <div class="trust-desc">Intelligent workflows that eliminate friction and drive efficiency.</div>
+      </div>
+      <div class="trust-card reveal-up" role="listitem">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.4"/><circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="1.4"/><circle cx="16" cy="16" r="1.4" fill="currentColor"/></svg>
+        </div>
+        <div class="trust-title">Business Outcome Focus</div>
+        <div class="trust-desc">Every decision anchored to measurable impact, not technical vanity.</div>
+      </div>
+      <div class="trust-card reveal-up" role="listitem">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="5" y="14" width="6" height="13" stroke="currentColor" stroke-width="1.4"/><rect x="13" y="8" width="6" height="19" stroke="currentColor" stroke-width="1.4"/><rect x="21" y="3" width="6" height="24" stroke="currentColor" stroke-width="1.4"/></svg>
+        </div>
+        <div class="trust-title">Scalable Digital Foundations</div>
+        <div class="trust-desc">Modern infrastructure that supports your ambitions at any scale.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── AI CORE ─── -->
+<section class="ai-section" id="ai-core" aria-labelledby="ai-heading">
+  <div class="container">
+    <div class="ai-layout">
+      <div class="ai-text-col">
+        <span class="section-label reveal-up">Built With AI At The Core</span>
+        <h2 id="ai-heading" class="section-headline display reveal-up">
+          Designed for<br/>the AI era
+        </h2>
+        <p class="ai-intro reveal-up">
+          Most consulting firms treat AI as an add-on. Machanor was built for the AI era from day one — intelligence embedded into strategy, architecture, development, testing, automation, and operations.
+        </p>
+        <div class="ai-visual reveal-up">
+          <svg viewBox="0 0 360 280" class="neural-diagram" aria-hidden="true">
+            <!-- layered network representing strategy -> architecture -> dev -> ops -->
+            <g class="n-edges" stroke="#C9D2E0" stroke-width="1">
+              <line x1="40" y1="50" x2="160" y2="40"/>
+              <line x1="40" y1="140" x2="160" y2="40"/>
+              <line x1="40" y1="230" x2="160" y2="40"/>
+              <line x1="40" y1="50" x2="160" y2="140"/>
+              <line x1="40" y1="140" x2="160" y2="140"/>
+              <line x1="40" y1="230" x2="160" y2="140"/>
+              <line x1="40" y1="140" x2="160" y2="230"/>
+              <line x1="40" y1="230" x2="160" y2="230"/>
+              <line x1="160" y1="40" x2="280" y2="90"/>
+              <line x1="160" y1="140" x2="280" y2="90"/>
+              <line x1="160" y1="230" x2="280" y2="90"/>
+              <line x1="160" y1="140" x2="280" y2="190"/>
+              <line x1="160" y1="230" x2="280" y2="190"/>
+            </g>
+            <g class="n-nodes">
+              <circle cx="40" cy="50" r="5" fill="#fff" stroke="#4F8CFF" stroke-width="1.6"/>
+              <circle cx="40" cy="140" r="5" fill="#fff" stroke="#4F8CFF" stroke-width="1.6"/>
+              <circle cx="40" cy="230" r="5" fill="#fff" stroke="#4F8CFF" stroke-width="1.6"/>
+              <circle cx="160" cy="40" r="5" fill="#fff" stroke="#07111F" stroke-width="1.6"/>
+              <circle cx="160" cy="140" r="6.5" fill="#4F8CFF" stroke="#4F8CFF" stroke-width="1.6"/>
+              <circle cx="160" cy="230" r="5" fill="#fff" stroke="#07111F" stroke-width="1.6"/>
+              <circle cx="280" cy="90" r="5" fill="#fff" stroke="#C8A86B" stroke-width="1.6"/>
+              <circle cx="280" cy="190" r="5" fill="#fff" stroke="#C8A86B" stroke-width="1.6"/>
+            </g>
+            <text x="8" y="28" class="n-label">Strategy</text>
+            <text x="128" y="20" class="n-label">Architecture</text>
+            <text x="248" y="70" class="n-label">Production</text>
+          </svg>
+        </div>
+      </div>
+      <div class="ai-cap-col">
+        <div class="cap-list">
+          <div class="cap-row reveal-up">
+            <span class="cap-index">01</span>
+            <span class="cap-title">Agentforce Solutions</span>
+            <span class="cap-arrow">→</span>
+          </div>
+          <div class="cap-row reveal-up">
+            <span class="cap-index">02</span>
+            <span class="cap-title">Autonomous Workflows</span>
+            <span class="cap-arrow">→</span>
+          </div>
+          <div class="cap-row reveal-up">
+            <span class="cap-index">03</span>
+            <span class="cap-title">AI-Powered Customer Experiences</span>
+            <span class="cap-arrow">→</span>
+          </div>
+          <div class="cap-row reveal-up">
+            <span class="cap-index">04</span>
+            <span class="cap-title">Revenue Intelligence</span>
+            <span class="cap-arrow">→</span>
+          </div>
+          <div class="cap-row reveal-up">
+            <span class="cap-index">05</span>
+            <span class="cap-title">Predictive Operations</span>
+            <span class="cap-arrow">→</span>
+          </div>
+          <div class="cap-row reveal-up">
+            <span class="cap-index">06</span>
+            <span class="cap-title">Data Cloud Enablement</span>
+            <span class="cap-arrow">→</span>
+          </div>
+          <div class="cap-row reveal-up">
+            <span class="cap-index">07</span>
+            <span class="cap-title">Generative AI Integrations</span>
+            <span class="cap-arrow">→</span>
+          </div>
+          <div class="cap-row reveal-up">
+            <span class="cap-index">08</span>
+            <span class="cap-title">Intelligent Process Automation</span>
+            <span class="cap-arrow">→</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SERVICES ─── -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="container">
+    <span class="section-label reveal-up">What We Do</span>
+    <h2 id="services-heading" class="section-headline display reveal-up">
+      Engineering the systems<br/>behind growth
+    </h2>
+    <p class="section-sub reveal-up">Technology is only valuable when it creates measurable business impact.</p>
+
+    <div class="services-grid">
+      <article class="service-card reveal-up">
+        <span class="service-num">01</span>
+        <span class="service-label">Strategy</span>
+        <h3 class="service-title">Transformation Strategy</h3>
+        <p class="service-desc">Business transformation roadmaps, operating model design, digital modernization.</p>
+      </article>
+      <article class="service-card reveal-up">
+        <span class="service-num">02</span>
+        <span class="service-label">Platform</span>
+        <h3 class="service-title">Salesforce Excellence</h3>
+        <p class="service-desc">Sales Cloud, Service Cloud, Experience Cloud, Revenue Cloud, Data Cloud, Industry Clouds.</p>
+      </article>
+      <article class="service-card reveal-up">
+        <span class="service-num">03</span>
+        <span class="service-label">Intelligence</span>
+        <h3 class="service-title">Agentforce &amp; AI</h3>
+        <p class="service-desc">Autonomous agents, conversational AI, intelligent workflows, AI adoption programs.</p>
+      </article>
+      <article class="service-card reveal-up">
+        <span class="service-num">04</span>
+        <span class="service-label">Integration</span>
+        <h3 class="service-title">Enterprise Integrations</h3>
+        <p class="service-desc">ERP integration, finance systems, marketing platforms, custom APIs.</p>
+      </article>
+      <article class="service-card reveal-up">
+        <span class="service-num">05</span>
+        <span class="service-label">Engineering</span>
+        <h3 class="service-title">Custom Engineering</h3>
+        <p class="service-desc">Lightning Web Components, custom applications, enterprise architecture, scalable platforms.</p>
+      </article>
+      <article class="service-card reveal-up">
+        <span class="service-num">06</span>
+        <span class="service-label">Partnership</span>
+        <h3 class="service-title">Managed Innovation</h3>
+        <p class="service-desc">Continuous improvement, optimization, governance, support, and growth.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ─── WHY MACHANOR ─── -->
+<section class="why-section" id="why" aria-labelledby="why-heading">
+  <div class="container">
+    <span class="section-label reveal-up">Why Machanor</span>
+    <h2 id="why-heading" class="section-headline display reveal-up">Built for execution</h2>
+    <p class="section-sub reveal-up">Ideas create possibilities. Execution creates results.</p>
+
+    <div class="comparison-grid reveal-up">
+      <div class="comp-col them" role="region" aria-label="Traditional consulting">
+        <div class="comp-header">Traditional Consulting</div>
+        <div class="comp-item negative"><span class="dash" aria-hidden="true">–</span>Junior staff, senior billing rates</div>
+        <div class="comp-item negative"><span class="dash" aria-hidden="true">–</span>AI as afterthought, not architecture</div>
+        <div class="comp-item negative"><span class="dash" aria-hidden="true">–</span>Technology-first, outcomes second</div>
+        <div class="comp-item negative"><span class="dash" aria-hidden="true">–</span>Slow, bloated implementation cycles</div>
+        <div class="comp-item negative"><span class="dash" aria-hidden="true">–</span>Inconsistent quality across engagements</div>
+        <div class="comp-item negative"><span class="dash" aria-hidden="true">–</span>Transactional, project-based thinking</div>
+      </div>
+      <div class="comp-col us" role="region" aria-label="Machanor">
+        <div class="comp-header">Machanor</div>
+        <div class="comp-item positive"><span class="check" aria-hidden="true">✓</span>Senior-level expertise, no overhead tax</div>
+        <div class="comp-item positive"><span class="check" aria-hidden="true">✓</span>AI-native delivery, built in from day one</div>
+        <div class="comp-item positive"><span class="check" aria-hidden="true">✓</span>Business-first architecture, always</div>
+        <div class="comp-item positive"><span class="check" aria-hidden="true">✓</span>Rapid implementation cycles</div>
+        <div class="comp-item positive"><span class="check" aria-hidden="true">✓</span>Enterprise-grade quality, every time</div>
+        <div class="comp-item positive"><span class="check" aria-hidden="true">✓</span>Long-term strategic partnership</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── JOURNEY ─── -->
+<section class="journey-section" aria-labelledby="journey-heading">
+  <div class="container">
+    <span class="section-label reveal-up">The Machanor Method</span>
+    <h2 id="journey-heading" class="section-headline display reveal-up">How we create momentum</h2>
+
+    <div class="journey-rail">
+      <div class="journey-line" aria-hidden="true"><div class="journey-line-fill" id="journeyFill"></div></div>
+      <div class="journey-steps" role="list">
+        <div class="journey-step reveal-up" role="listitem">
+          <div class="journey-dot" aria-hidden="true"></div>
+          <span class="journey-tag">Discover</span>
+          <p class="journey-desc">Understand business goals, challenges, and opportunities.</p>
+        </div>
+        <div class="journey-step reveal-up" role="listitem">
+          <div class="journey-dot" aria-hidden="true"></div>
+          <span class="journey-tag">Architect</span>
+          <p class="journey-desc">Design scalable future-state solutions.</p>
+        </div>
+        <div class="journey-step reveal-up" role="listitem">
+          <div class="journey-dot" aria-hidden="true"></div>
+          <span class="journey-tag">Build</span>
+          <p class="journey-desc">Implement with speed, quality, and precision.</p>
+        </div>
+        <div class="journey-step reveal-up" role="listitem">
+          <div class="journey-dot" aria-hidden="true"></div>
+          <span class="journey-tag">Automate</span>
+          <p class="journey-desc">Embed AI and intelligent workflows.</p>
+        </div>
+        <div class="journey-step reveal-up" role="listitem">
+          <div class="journey-dot" aria-hidden="true"></div>
+          <span class="journey-tag">Scale</span>
+          <p class="journey-desc">Optimize continuously for growth.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── INDUSTRIES ─── -->
+<section id="industries" class="industries-section" aria-labelledby="industries-heading">
+  <div class="container">
+    <span class="section-label reveal-up">Industry Expertise</span>
+    <h2 id="industries-heading" class="section-headline display reveal-up">Where we operate</h2>
+
+    <div class="industry-grid">
+      <article class="industry-card reveal-up">
+        <h3 class="industry-title">Technology &amp; SaaS</h3>
+        <p class="industry-challenge">Scaling GTM, automating revenue operations, building AI-powered customer success.</p>
+      </article>
+      <article class="industry-card reveal-up">
+        <h3 class="industry-title">Manufacturing</h3>
+        <p class="industry-challenge">Modernizing field service, supply chain visibility, dealer network management.</p>
+      </article>
+      <article class="industry-card reveal-up">
+        <h3 class="industry-title">Financial Services</h3>
+        <p class="industry-challenge">Transforming client onboarding, compliance workflows, advisor productivity.</p>
+      </article>
+      <article class="industry-card reveal-up">
+        <h3 class="industry-title">Healthcare</h3>
+        <p class="industry-challenge">Connecting patient journeys, clinical operations, administrative workflows.</p>
+      </article>
+      <article class="industry-card reveal-up">
+        <h3 class="industry-title">Professional Services</h3>
+        <p class="industry-challenge">Driving utilization, project profitability, talent management efficiency.</p>
+      </article>
+      <article class="industry-card reveal-up">
+        <h3 class="industry-title">Nonprofit Organizations</h3>
+        <p class="industry-challenge">Maximizing mission impact through donor management and program efficiency.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ─── OUTCOMES ─── -->
+<section class="outcomes-section" aria-labelledby="outcomes-heading">
+  <div class="container">
+    <span class="section-label reveal-up">Outcomes That Matter</span>
+    <h2 id="outcomes-heading" class="section-headline display reveal-up">Results you can measure</h2>
+
+    <div class="outcomes-grid">
+      <div class="outcome-card reveal-up">
+        <div class="outcome-metric" data-count="3" data-suffix="×">0×</div>
+        <div class="outcome-label">Faster time-to-value on digital initiatives</div>
+      </div>
+      <div class="outcome-card reveal-up">
+        <div class="outcome-metric" data-count="90" data-suffix="%+">0%</div>
+        <div class="outcome-label">User adoption on delivered platforms</div>
+      </div>
+      <div class="outcome-card reveal-up">
+        <div class="outcome-metric" data-count="40" data-suffix="%">0%</div>
+        <div class="outcome-label">Increase in revenue team efficiency</div>
+      </div>
+      <div class="outcome-card reveal-up">
+        <div class="outcome-metric" data-count="60" data-suffix="%">0%</div>
+        <div class="outcome-label">Reduction in manual operational tasks</div>
+      </div>
+      <div class="outcome-card reveal-up">
+        <div class="outcome-metric" data-static="↑">↑</div>
+        <div class="outcome-label">Enhanced customer experience scores</div>
+      </div>
+      <div class="outcome-card reveal-up">
+        <div class="outcome-metric" data-static="∞">∞</div>
+        <div class="outcome-label">Scalable architecture that grows with you</div>
+      </div>
+      <div class="outcome-card reveal-up">
+        <div class="outcome-metric" data-count="50" data-suffix="%" data-prefix="−">−0%</div>
+        <div class="outcome-label">Reduction in operational complexity</div>
+      </div>
+      <div class="outcome-card reveal-up">
+        <div class="outcome-metric" data-static="AI×">AI×</div>
+        <div class="outcome-label">Productivity gains from automation</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── INSIGHTS ─── -->
+<section id="insights" aria-labelledby="insights-heading">
+  <div class="container">
+    <span class="section-label reveal-up">Insights</span>
+    <h2 id="insights-heading" class="section-headline display reveal-up">Perspectives on the future of business</h2>
+
+    <div class="insights-grid">
+      <article class="insight-card reveal-up">
+        <span class="insight-category">Artificial Intelligence</span>
+        <h3 class="insight-title">Why Agentforce changes everything about enterprise AI</h3>
+        <p class="insight-desc">The shift from copilots to autonomous agents is a fundamental reimagining of how businesses operate at scale.</p>
+        <a href="#" class="insight-read">Read article <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="insight-card reveal-up">
+        <span class="insight-category">Revenue Operations</span>
+        <h3 class="insight-title">Building revenue intelligence: from data to decisions</h3>
+        <p class="insight-desc">Modern RevOps means embedding intelligence directly into the workflows where revenue is created.</p>
+        <a href="#" class="insight-read">Read article <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="insight-card reveal-up">
+        <span class="insight-category">Enterprise Automation</span>
+        <h3 class="insight-title">The automation-first enterprise: a blueprint</h3>
+        <p class="insight-desc">Organizations treating automation as infrastructure compound advantages that are hard to replicate.</p>
+        <a href="#" class="insight-read">Read article <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FINAL CTA ─── -->
+<section class="cta-section" id="contact" aria-labelledby="cta-heading">
+  <canvas id="ctaCanvas" aria-hidden="true"></canvas>
+  <div class="container">
+    <h2 id="cta-heading" class="cta-headline display reveal-up">
+      Ready to move from vision to production?
+    </h2>
+    <p class="cta-sub reveal-up">
+      Whether you're launching a transformation initiative, implementing Salesforce, adopting Agentforce, or building AI-powered business experiences, Machanor helps turn ambition into measurable outcomes.
+    </p>
+    <div class="cta-actions reveal-up">
+      <a href="mailto:hello@machanor.com" class="btn-primary magnetic dark">
+        <span>Start The Conversation</span>
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="mailto:hello@machanor.com?subject=Strategy Session" class="btn-secondary magnetic dark"><span>Book Strategy Session</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer id="about" role="contentinfo">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-text">MACHANOR</span>
+        <p class="footer-tagline">From Vision to Production</p>
+        <p class="footer-sub-tag">AI-Native. Business-Focused. Outcome-Driven.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Transformation Strategy</a></li>
+          <li><a href="#services">Salesforce Excellence</a></li>
+          <li><a href="#services">Agentforce &amp; AI</a></li>
+          <li><a href="#services">Enterprise Integrations</a></li>
+          <li><a href="#services">Custom Engineering</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>AI &amp; Agentforce</h4>
+        <ul>
+          <li><a href="#ai-core">Agentforce Solutions</a></li>
+          <li><a href="#ai-core">Autonomous Workflows</a></li>
+          <li><a href="#ai-core">AI-Powered CX</a></li>
+          <li><a href="#ai-core">Data Cloud</a></li>
+          <li><a href="#ai-core">Generative AI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Industries</h4>
+        <ul>
+          <li><a href="#industries">Technology &amp; SaaS</a></li>
+          <li><a href="#industries">Manufacturing</a></li>
+          <li><a href="#industries">Financial Services</a></li>
+          <li><a href="#industries">Healthcare</a></li>
+          <li><a href="#industries">Nonprofit</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#insights">Insights</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="mailto:hello@machanor.com">hello@machanor.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Machanor. All rights reserved.</p>
+      <p>AI-Native Digital Transformation</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
